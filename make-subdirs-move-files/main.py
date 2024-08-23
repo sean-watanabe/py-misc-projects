@@ -76,7 +76,7 @@ def move_files(source_folder_path, destination_folder_path):
 
                 shutil.move(source_file, moved_file)
         
-        print("\nSuccessfully moved files to destination folder")
+        print("\nFiles successfully moved to the destination folder!")
 
     except TypeError as te:
         print(f"Oops! An error occurred while moving files. \nError: {te}")
@@ -109,7 +109,7 @@ if len(source_files) == 0:
 destination_directory = str(input("\nEnter the destination folder path. \nDestination path: "))
 
 # Defines the number of files to be stored in each destination folder
-number_of_files_per_folder = int(input("\nHow many files does each sub folder should store?\nFiles per sub folders: "))
+number_of_files_per_folder = int(input("\nHow many files should each subfolder store?\nFiles per sub folders: "))
 
 number_of_folders_needed = math.ceil(len(source_files) / number_of_files_per_folder)
 
