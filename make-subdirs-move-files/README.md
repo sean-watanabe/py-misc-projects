@@ -24,7 +24,7 @@ python3 main.py
 
 ## <div style="border-bottom: 2px solid;">How to use</div>
 
-As a preparation, create an 'empty' destination folder.Then, copy both the destination and source directory paths so that you can paste them later.
+As a preparation, create an 'empty' destination folder. Then, copy both the destination and source directory paths so that you can paste them later.
 
 When you run 'main.py,' you'll be prompted to enter the destination folder path where the subfolders will be created, the source folder path where the files are stored, and the number of files to move into the newly created subfolders.
 
